@@ -26,46 +26,46 @@ import ScrollToSection from './Components/scroll-to-top-and-bottom/scroll-to-sec
 function App() {
   return (
     <div className="App">
-      {/* Accordian component */}
+      <Accordian component />
 
-      {/* <Accordian/> */}
-      {/* <RandomColor/> */}
-      {/* <StarRating noOfStars={10}/> */}
+      <Accordian/>
+      <RandomColor/>
+      <StarRating noOfStars={10}/> 
 
-      {/* <ImageSlider url={'https://picsum.photos/v2/list'}page={'1'} limit={'10'}/> */}
+       <ImageSlider url={'https://picsum.photos/v2/list'}page={'1'} limit={'10'}/> 
 
-      {/* <LoadMoreData/> */}
+      <LoadMoreData/> 
 
-      {/* <TreeView menus={menus}/> */}
+      <TreeView menus={menus}/> 
 
-      {/* <QRCodeGenerator/> */}
+      <QRCodeGenerator/> 
 
-      {/* <LightDarkMode/> */}
+       <LightDarkMode/>
 
-      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
 
-      {/* <TabTest/> */}
+       <TabTest/>
 
-      {/* <ModalTest/> */}
+       <ModalTest/>
 
-      {/* <GithubProfileFinder/> */}
+       <GithubProfileFinder/>
 
-      {/* <SearchAutoComplete/> */}
+      <SearchAutoComplete/>
 
-      {/* <TicTacToe/> */}
+       <TicTacToe/>
 
-      {/* <FeatureFlagGlobalState>
+       <FeatureFlagGlobalState>
         <FeatureFlags/>
-      </FeatureFlagGlobalState> */}
+      </FeatureFlagGlobalState>
 
 
-      {/* <UseFetchHookTest/> */}
+       <UseFetchHookTest/>
 
-      {/* <UseOnClickOutsideTest/> */}
+       <UseOnClickOutsideTest/>
 
-      {/* <UseWindowResizeTest/> */}
+       <UseWindowResizeTest/>
 
-      {/* <ScrollToTopAndBottom/> */}
+       <ScrollToTopAndBottom/>
 
       <ScrollToSection/>
 
