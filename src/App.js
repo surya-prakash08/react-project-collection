@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// eslint-disable-next-line
 import './App.css';
 import Accordian from './Components/accordian';
 import RandomColor from './Components/random-color';
